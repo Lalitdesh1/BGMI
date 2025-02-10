@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #a8e6cf, #89cff0);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+strong {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #004d40;
+}
+
+/* Ordered List */
+ol {
+    list-style-type: decimal;
+    width: 60%;
+    margin: 20px auto;
+    padding: 0;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* List Items */
+li {
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: #e0f7fa;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+    background: #b2ebf2;
+    transform: scale(1.05);
+    font-weight: bold;
+}

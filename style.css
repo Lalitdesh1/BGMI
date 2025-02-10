@@ -1,0 +1,163 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 0px 20px 20px 20px;
+    background-color: #fff;
+    color: rgb(97, 147, 235);
+}
+
+/* Logo/Icon */
+.icon {
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffcc00;
+    display: flex;
+    background-image: url('icon.png');
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.icon img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Navigation bar */
+.navbar {
+    margin-right: 100px;
+    display: flex;
+    gap: 35px;
+}
+
+.navbar a {
+    text-decoration: none;
+    border: none;
+    color: #010101;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffaa00;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #a8e6cf, #89cff0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #004d40;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 28px;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: #00796b;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background: #004d40;
+    transform: scale(1.1);
+}
+
+/* Tables */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #00796b;
+    color: white;
+}
+
+td {
+    transition: background 0.3s ease-in-out;
+}
+
+tr:hover td {
+    background: #c8e6c9;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+    margin: 20px auto;
+}
+
+li {
+    background: white;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background 0.3s;
+}
+
+li:hover {
+    background: #b2ebf2;
+    transform: translateX(10px);
+}
+
+/* Highlighted Classes */
+.bg-up {
+    color: #00796b;
+    font-weight: bold;
+}
+
+.bg-stayup {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.bg-stay {
+    color: #d32f2f;
+    font-weight: bold;
+}
